@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MayLily.Seller", "MayLily.Seller\MayLily.Seller.csproj", "{3F70D664-31DC-4E98-BB46-962F1A4D29F4}"
 EndProject
@@ -22,6 +22,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MayLily.CommonViews", "MayLily.CommonViews\MayLily.CommonViews.csproj", "{945FD2BF-3DB7-4B8B-8B09-FAF26B6B30A4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MayLily.Abstractions", "MayLily.Abstractions\MayLily.Abstractions.csproj", "{823D9DE9-8E66-44F9-BE25-53773F9BB674}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MayLily.InitialMigration", "MayLily.InitialMigration\MayLily.InitialMigration.csproj", "{7FC4EA99-39D0-4560-90BC-DB4CE7C563C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MayLily.DatabaseEntities", "MayLily.DatabaseEntities\MayLily.DatabaseEntities.csproj", "{FF1402C6-F05C-4F92-8EBC-26ED4176BFB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,14 @@ Global
 		{823D9DE9-8E66-44F9-BE25-53773F9BB674}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{823D9DE9-8E66-44F9-BE25-53773F9BB674}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{823D9DE9-8E66-44F9-BE25-53773F9BB674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FC4EA99-39D0-4560-90BC-DB4CE7C563C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC4EA99-39D0-4560-90BC-DB4CE7C563C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC4EA99-39D0-4560-90BC-DB4CE7C563C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC4EA99-39D0-4560-90BC-DB4CE7C563C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF1402C6-F05C-4F92-8EBC-26ED4176BFB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF1402C6-F05C-4F92-8EBC-26ED4176BFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF1402C6-F05C-4F92-8EBC-26ED4176BFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF1402C6-F05C-4F92-8EBC-26ED4176BFB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,5 +72,7 @@ Global
 		{3973BE78-0956-4FAF-B27F-1060064BA6CE} = {D0FABFFC-6066-4A00-AC6D-36434B239F22}
 		{945FD2BF-3DB7-4B8B-8B09-FAF26B6B30A4} = {D0FABFFC-6066-4A00-AC6D-36434B239F22}
 		{823D9DE9-8E66-44F9-BE25-53773F9BB674} = {D0FABFFC-6066-4A00-AC6D-36434B239F22}
+		{7FC4EA99-39D0-4560-90BC-DB4CE7C563C0} = {D0FABFFC-6066-4A00-AC6D-36434B239F22}
+		{FF1402C6-F05C-4F92-8EBC-26ED4176BFB0} = {D0FABFFC-6066-4A00-AC6D-36434B239F22}
 	EndGlobalSection
 EndGlobal

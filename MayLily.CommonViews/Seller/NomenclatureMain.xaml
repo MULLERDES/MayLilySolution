@@ -6,12 +6,16 @@
         xmlns:local="clr-namespace:MayLily.CommonViews.ViewModels.Common"
         mc:Ignorable="d"
         Title="NomenclatureMain" Height="300" Width="300">
+    <Window.Resources>
+        <local:NomenclatureModel x:Key="mockModel"></local:NomenclatureModel>
+    </Window.Resources> 
     <Window.DataContext>
-        <local:NomenclatureModel x:Name="ddd"></local:NomenclatureModel>
+        <StaticResource ResourceKey="mockModel" ></StaticResource>
     </Window.DataContext>
     <Grid>
-        <ListView ItemsSource="{Binding Source=ddd}"> 
-            
-        </ListView>
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="{Binding Name}"></TextBlock>
+            <ListView ItemsSource="{Binding Path=Items}"></ListView>
+        </StackPanel>
     </Grid>
 </Window>
