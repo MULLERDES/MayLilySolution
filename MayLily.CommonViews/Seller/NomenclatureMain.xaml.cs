@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System.Collections.Generic;
+using System.Windows;
 
 namespace MayLily.CommonViews.Seller
 {
@@ -7,10 +8,13 @@ namespace MayLily.CommonViews.Seller
     /// </summary>
     public partial class NomenclatureMain : Window
     {
+ 
         public NomenclatureMain()
         {
             InitializeComponent();
+      
         }
- 
+
+
     }
 }

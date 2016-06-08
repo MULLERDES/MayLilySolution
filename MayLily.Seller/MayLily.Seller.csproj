@@ -100,6 +100,10 @@
       <Project>{3973be78-0956-4faf-b27f-1060064ba6ce}</Project>
       <Name>MayLily.Common.Dependecyinjection</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MayLily.CommonViews\MayLily.CommonViews.csproj">
+      <Project>{945fd2bf-3db7-4b8b-8b09-faf26b6b30a4}</Project>
+      <Name>MayLily.CommonViews</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

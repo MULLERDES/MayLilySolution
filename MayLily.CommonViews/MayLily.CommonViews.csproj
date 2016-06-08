@@ -65,6 +65,7 @@
     <Compile Include="Seller\NomenclatureMain.xaml.cs">
       <DependentUpon>NomenclatureMain.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\Common\NomenclatureModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">

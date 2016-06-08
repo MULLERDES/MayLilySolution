@@ -27,6 +27,7 @@ namespace MayLily.Seller
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
+            new MayLily.CommonViews.Seller.NomenclatureMain().Show();
           //var a = new MayLily.CommonViews.Seller.NomenclatureMain();
           //  a.Show();
           //  MayLily.CommonViews.IView b = a;
