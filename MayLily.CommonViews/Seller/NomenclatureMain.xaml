@@ -15,7 +15,16 @@
     <Grid>
         <StackPanel Orientation="Vertical">
             <TextBlock Text="{Binding Name}"></TextBlock>
-            <ListView ItemsSource="{Binding Path=Items}"></ListView>
+            <ListView ItemsSource="{Binding Path=Items}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <TextBlock Text="{Binding Path=Name}"></TextBlock>
+                            <TextBlock Text="{Binding Path=Description}"></TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackPanel>
     </Grid>
 </Window>
